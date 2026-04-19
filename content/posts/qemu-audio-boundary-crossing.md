@@ -3,10 +3,8 @@ title: "QEMU/KVM Audio Boundary Crossing: Silent Injection Between Host and Gues
 date: 2025-04-19
 type: blog
 slug: qemu-audio-boundary-crossing
-published: true
 description: "Mapping the PipeWire/SPICE audio architecture and confirming bidirectional silent audio injection between host and VM — a credible CVE candidate."
 tags: ["kernel", "qemu", "kvm", "cve", "research", "audio"]
-draft: false
 ---
 
 # Background

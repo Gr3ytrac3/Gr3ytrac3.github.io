@@ -3,10 +3,8 @@ title: "Linux Microphone Debugging: When PipeWire Lies to You"
 date: 2025-01-15
 type: note
 slug: linux-mic-debugging
-published: true
 description: "Quick reference for debugging microphone access issues on modern Linux desktops running PipeWire."
 tags: ["linux", "pipewire", "audio", "debugging"]
-draft: false
 ---
 
 # The Problem

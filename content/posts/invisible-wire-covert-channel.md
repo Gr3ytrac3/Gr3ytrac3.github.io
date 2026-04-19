@@ -3,10 +3,8 @@ title: "Invisible Wire: Covert Channel Research Over Linux Desktop Audio"
 date: 2025-03-10
 type: blog
 slug: invisible-wire-covert-channel
-published: true
 description: "Designing and measuring a covert data exfiltration channel using the Linux desktop audio subsystem as the carrier medium."
 tags: ["covert-channel", "linux", "audio", "research", "exfiltration"]
-draft: false
 ---
 
 # The Premise
