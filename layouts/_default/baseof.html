@@ -6,22 +6,16 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Params.handle }}{{ end }}</title>
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="author" content="{{ .Site.Params.author }}">
-
-  <!-- Open Graph -->
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
-
-  <!-- RSS -->
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end }}
-
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
-<body>
+<body class="{{ if .IsHome }}page-index{{ end }}">
   <div class="site-wrap">
     {{ partial "nav.html" . }}
     {{ block "main" . }}{{ end }}
