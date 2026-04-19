@@ -5,7 +5,7 @@
 #  then commits and pushes to GitHub
 # ─────────────────────────────────────────────
 
-VAULT_PUBLISHED="/home/gr3ytrac3/Documents/main/Published"
+VAULT_PUBLISHED="/home/gr3ytrac3/offsec-desk-site/vault/Published"
 HUGO_POSTS="/home/gr3ytrac3/offsec-desk-site/content/posts"
 HUGO_SITE="/home/gr3ytrac3/offsec-desk-site"
 HUGO_STATIC_IMAGES="/home/gr3ytrac3/offsec-desk-site/static/images"

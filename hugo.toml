@@ -5,15 +5,15 @@ enableRobotsTXT = true
 enableEmoji = false
 
 [params]
-author = "Kalu"
-handle = "Gr3ytrac3"
+author = "Cyberdev"
+handle = "0xSEC"
 description = "Offensive security researcher. Vulnerability research, kernel exploitation, reverse engineering."
 organization = "The OffSec Desk"
 github = "https://github.com/Gr3ytrac3"
 twitter = "https://x.com/thecyberdevhq"
-linkedin = "https://linkedin.com/in/yourprofile"
-infosec = "https://infosec.exchange/@Gr3ytrac3"
-substack = "https://cyberdevhq.substack.com"
+linkedin = "https://www.linkedin.com/in/kalu-umah-cyberdev-690421279/"
+infosec = "https://infosec.exchange/@Cyberdevhq"
+substack = "https://substack.com/@cyberdevhq"
 blog = "https://myblog-orpin-one.vercel.app"
 
 [markup]
