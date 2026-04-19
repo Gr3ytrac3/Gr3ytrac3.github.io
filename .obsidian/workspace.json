@@ -53,28 +53,14 @@
             "id": "08a213cc836278cd",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "split-diff-view",
               "state": {
-                "url": "https://gr3ytrac3.github.io/",
-                "title": "Cyberdev | 0xSEC",
-                "mode": "webview"
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "globe-2",
-              "title": "Cyberdev | 0xSEC"
-            }
-          },
-          {
-            "id": "b5e9230179240d52",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "http://localhost:1313/links/",
-                "title": "Links | 0xSEC",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Links | 0xSEC"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           },
           {
@@ -278,6 +264,7 @@
   },
   "active": "08a213cc836278cd",
   "lastOpenFiles": [
+    "links.md",
     "Published/Summary.md",
     "research_center/Audible Boundary QEMU KVM.md.md",
     "Exploit reasoning assistant Project/V1.md",
