@@ -1,12 +1,12 @@
 ---
-title: Project Detailed Summary Documentation
+title: '"Project Detailed Summary Documentation"'
 date: 2026-04-19
 type: blog
 description: A thinking partner that accelerates kernel vulnerability analysis and exploitation reasoning.
 tags:
 ---
 ---
-##### ~={orange}A thinking partner that accelerates kernel vulnerability analysis and exploitation reasoning.=~
+##### A thinking partner that accelerates kernel vulnerability analysis and exploitation reasoning.
 
 ---
 
