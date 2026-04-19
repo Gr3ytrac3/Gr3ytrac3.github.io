@@ -1,0 +1,136 @@
+{{ define "main" }}
+
+<h1>{{ .Site.Params.handle }}</h1>
+
+<p class="index-intro">{{ .Content }}</p>
+
+<!-- ── Experience ─────────────────────── -->
+<div class="section-block">
+  <h2>Experience</h2>
+
+  <div class="role-item">
+    <div>
+      <span class="role-title">Independent Offensive Security Researcher</span>
+      <span class="role-org"> @ <a href="https://github.com/Gr3ytrac3">The OffSec Desk</a></span>
+    </div>
+    <span class="role-date">Present</span>
+  </div>
+
+  <div class="role-item">
+    <div>
+      <span class="role-title">Vulnerability Researcher &amp; Exploit Developer</span>
+      <span class="role-org"> @ Independent</span>
+    </div>
+    <span class="role-date">Present</span>
+  </div>
+
+  <div class="role-item">
+    <div>
+      <span class="role-title">Security Curriculum Instructor</span>
+      <span class="role-org"> @ Independent</span>
+    </div>
+    <span class="role-date">Past</span>
+  </div>
+
+  <div class="role-item">
+    <div>
+      <span class="role-title">Penetration Tester</span>
+      <span class="role-org"> @ Independent Engagements</span>
+    </div>
+    <span class="role-date">Past</span>
+  </div>
+</div>
+
+<!-- ── Research & Projects ────────────── -->
+<div class="section-block">
+  <h2>Research &amp; Projects</h2>
+
+  <div class="project-item">
+    <a class="project-name" href="https://github.com/Gr3ytrac3">QEMU/KVM Audio Boundary Crossing</a>
+    <p class="project-desc">
+      Bidirectional silent audio injection between host and guest VMs via PipeWire/SPICE. CVE candidate under responsible disclosure.
+    </p>
+  </div>
+
+  <div class="project-item">
+    <a class="project-name" href="https://github.com/Gr3ytrac3">Invisible Wire</a>
+    <p class="project-desc">
+      Covert channel research exploiting Linux desktop audio subsystems for stealthy data exfiltration.
+    </p>
+  </div>
+
+  <div class="project-item">
+    <a class="project-name" href="https://github.com/Gr3ytrac3">Ring Buffer</a>
+    <p class="project-desc">
+      Kernel-level logging framework for low-level event capture and analysis.
+    </p>
+  </div>
+
+  <div class="project-item">
+    <a class="project-name" href="https://github.com/Gr3ytrac3">Enhanced Process Monitor</a>
+    <p class="project-desc">
+      eBPF-based process monitoring tool for runtime behavioral analysis.
+    </p>
+  </div>
+
+  <div class="project-item">
+    <a class="project-name" href="https://github.com/Gr3ytrac3">Talon OS</a>
+    <p class="project-desc">
+      Custom OSINT-focused Linux distribution built for intelligence gathering workflows.
+    </p>
+  </div>
+
+  <div class="project-item">
+    <a class="project-name" href="https://github.com/Gr3ytrac3">KVM-based Type-2 VMM (Rust)</a>
+    <p class="project-desc">
+      A custom virtual machine monitor implementation in Rust using the Linux KVM API, covering guest memory layout and exit handling.
+    </p>
+  </div>
+</div>
+
+<!-- ── Education ──────────────────────── -->
+<div class="section-block">
+  <h2>Education</h2>
+
+  <div class="role-item">
+    <div>
+      <span class="role-title">B.Sc. Computer Science &amp; Information Technology</span>
+      <span class="role-org"> — UR-CST (University of Rwanda)</span>
+    </div>
+    <span class="role-date">In progress</span>
+  </div>
+
+  <div class="role-item">
+    <div>
+      <span class="role-title">Computer Science</span>
+      <span class="role-org"> — Collège de Paris</span>
+    </div>
+    <span class="role-date">Past</span>
+  </div>
+</div>
+
+<!-- ── Research Focus ─────────────────── -->
+<div class="section-block">
+  <h2>Research Focus</h2>
+
+  <div class="role-item">
+    <span class="role-title">Linux kernel exploitation &amp; internals</span>
+  </div>
+  <div class="role-item">
+    <span class="role-title">Hypervisor security &amp; VM escape research</span>
+  </div>
+  <div class="role-item">
+    <span class="role-title">Covert channel design &amp; detection</span>
+  </div>
+  <div class="role-item">
+    <span class="role-title">Reverse engineering &amp; binary exploitation</span>
+  </div>
+  <div class="role-item">
+    <span class="role-title">Vulnerability research &amp; responsible disclosure</span>
+  </div>
+  <div class="role-item">
+    <span class="role-title">Systems programming — C, Assembly, Rust</span>
+  </div>
+</div>
+
+{{ end }}

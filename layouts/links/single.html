@@ -1,0 +1,76 @@
+{{ define "main" }}
+
+<h1>Contact Links</h1>
+
+<p class="index-intro">Connect with me across various platforms. Feel free to reach out for questions, research collaboration, or just to say hello.</p>
+
+<div class="links-section">
+  <div class="links-number">01</div>
+  <h2>Social Platforms</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>X / Twitter</td>
+        <td>Security thoughts, research updates, and discussions.</td>
+        <td><a href="{{ .Site.Params.twitter }}">@thecyberdevhq</a></td>
+      </tr>
+      <tr>
+        <td>InfoSec Exchange</td>
+        <td>Fediverse presence for the security community.</td>
+        <td><a href="{{ .Site.Params.infosec }}">@Gr3ytrac3</a></td>
+      </tr>
+      <tr>
+        <td>LinkedIn</td>
+        <td>Professional profile and work history.</td>
+        <td><a href="{{ .Site.Params.linkedin }}">linkedin.com/in/kalu</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="links-section">
+  <div class="links-number">02</div>
+  <h2>Research &amp; Writing</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>GitHub</td>
+        <td>Open source tools, PoCs, and research repositories.</td>
+        <td><a href="{{ .Site.Params.github }}">github.com/Gr3ytrac3</a></td>
+      </tr>
+      <tr>
+        <td>Substack</td>
+        <td>Long-form security research and analysis.</td>
+        <td><a href="{{ .Site.Params.substack }}">@cyberdevhq</a></td>
+      </tr>
+      <tr>
+        <td>Blog</td>
+        <td>Technical writeups and research notes.</td>
+        <td><a href="/posts/">Posts</a></td>
+      </tr>
+      <tr>
+        <td>RSS Feed</td>
+        <td>Subscribe to updates from this site.</td>
+        <td><a href="/index.xml">/index.xml</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p style="font-size:0.72rem; color:var(--fg-muted); margin-top:2rem;">* All links current as of publication</p>
+
+{{ end }}
