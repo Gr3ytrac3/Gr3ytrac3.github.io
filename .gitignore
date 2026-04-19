@@ -6,3 +6,10 @@ resources/
 # Obsidian vault — private notes
 vault/
 # But track the published folder via content/posts instead
+
+# Private vault notes — never publish
+"Exploit reasoning assistant Project"/
+research_center/
+Welcome.md
+"2026 -  Roadmap.md"
+.obsidian/
